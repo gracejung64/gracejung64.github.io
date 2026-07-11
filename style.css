@@ -33,3 +33,29 @@
 .cta-section .eyebrow{color:#f4a04b}
 .contact-grid span{color:#8b6b4d}
 @media (min-width:720px){.profile-grid>div{padding:44px 50px}.profile-grid{display:block}.hero{min-height:700px}}
+
+/* Cache-safe orange and soft-gray palette */
+.hero{background:#ff8a1f!important;color:#24272c!important}
+.hero .eyebrow{color:#3c3f44!important}
+.hero .intro{background:#fff3e7!important;border-left-color:#4a4d52!important}
+.expertise-section,.services-section{background:#f1f1f1!important}
+.profile-section,.career-section,.contact-section{background:#fafafa!important}
+.profile-grid>div{background:#fff!important;border-color:#e1e1e1!important;border-top-color:#ff8a1f!important}
+.keyword-list span{background:#f3f3f3!important;border-color:#dedede!important}
+.accordion details{background:#fff!important;border-color:#dedede!important}
+.accordion summary,.accordion details:nth-child(2) summary,.accordion details:nth-child(3) summary,.accordion details:nth-child(4) summary{background:#fff!important;color:#303237!important;border-left:6px solid #ff8a1f!important}
+.accordion details[open] summary{background:#fff2e6!important;color:#2f3135!important}
+.detail-body{background:#fff!important}
+.career-highlight{background:#4b4e53!important}
+.career-highlight strong{color:#ff9b3d!important}
+.career-list p{background:#ededed!important}
+.service-grid article{background:#fff!important;border-left:5px solid #ff8a1f!important}
+.service-grid span{color:#ec6d00!important}
+.cta-section{background:#e9e9e9!important;color:#25272b!important}
+.cta-section h2{color:#2f3237!important}
+.cta-section p:not(.eyebrow){color:#666a70!important}
+.cta-section .eyebrow{color:#ec6d00!important}
+.cta-section .button.primary{background:#ff6b00!important;border-color:#ff6b00!important;color:#fff!important;border-radius:8px!important;box-shadow:0 10px 24px rgba(255,107,0,.24)!important}
+.contact-grid>a,.contact-grid>div{background:#f1f1f1!important;border-color:#dedede!important}
+.button.primary{background:#44474c!important;border-color:#44474c!important;color:#fff!important}
+.hero .button.primary{background:#33363b!important;border-color:#33363b!important}
