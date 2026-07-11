@@ -3,3 +3,33 @@
 @media (min-width:720px){.topbar{padding:0 max(28px,calc((100vw - 1040px)/2))}.topbar nav{gap:28px}.hero{padding:76px 28px}.hero-inner{grid-template-columns:310px 1fr;align-items:center;gap:72px}.portrait-wrap{width:280px;height:280px}.hero-copy{text-align:left}.intro{margin-left:0}.hero-actions{display:flex;flex-wrap:wrap}.button{min-width:140px}.button.outline{grid-column:auto}.section{padding:100px 28px}.profile-grid{grid-template-columns:340px 1fr;align-items:center;gap:72px}.profile-photo-card{max-width:none}.career-grid{grid-template-columns:.9fr 1.4fr}.service-grid{grid-template-columns:repeat(2,1fr)}.contact-grid{grid-template-columns:repeat(2,1fr)}}
 @media (min-width:1080px){.service-grid{grid-template-columns:repeat(3,1fr)}.hero{min-height:780px}}
 @media (prefers-reduced-motion:no-preference){.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}}
+
+/* 2026 orange & graphite redesign */
+:root{--navy:#34373c;--navy-2:#555960;--gold:#f28c28;--cream:#f2f0ed;--paper:#fff;--ink:#24272c;--muted:#70747a;--line:#dedbd6;--shadow:0 18px 45px rgba(34,37,42,.12)}
+.topbar{background:rgba(255,255,255,.95);border-bottom-color:rgba(49,52,58,.1)}
+.brand{font-family:inherit;color:#292c31;font-weight:900}
+.topbar nav{color:#686c72}
+.hero{background:#f2922e;color:#24272c}
+.portrait-wrap{padding:5px;background:#fff;box-shadow:0 20px 50px rgba(54,45,35,.2)}
+.eyebrow{color:#4b4e53;font-weight:900;letter-spacing:.18em}
+.eyebrow.dark{color:#e67716}
+.hero h1{font-family:inherit;font-weight:900}
+.location{color:#55595f}
+.intro{border-left:4px solid #34373c;background:rgba(255,255,255,.48);font-family:inherit;font-weight:700}
+.button{border-radius:12px;border-color:rgba(49,52,58,.22)}
+.button.primary{background:#34373c;border-color:#34373c;color:#fff;box-shadow:0 9px 20px rgba(49,52,58,.2)}
+.button.secondary,.button.outline{background:#fff;color:#303339}
+.section h2,.cta-section h2,.contact-section h2{font-family:inherit;font-weight:900}
+.profile-grid{display:block}
+.profile-grid>div{padding:30px;border:1px solid #e3e0dc;border-top:5px solid var(--gold);border-radius:var(--radius);box-shadow:var(--shadow)}
+.keyword-list span{border-color:#ddd8d0;color:#5a5e64;background:#faf9f7}
+.accordion details{border-color:#e5e1dc;box-shadow:0 8px 22px rgba(40,42,46,.07)}
+.accordion summary,.accordion details:nth-child(2) summary,.accordion details:nth-child(3) summary,.accordion details:nth-child(4) summary{color:#292c31;background:#fff;border-left:5px solid var(--gold)}
+.career-highlight{background:#3b3e43}
+.career-highlight strong{color:#f5a34f}
+.service-grid span{color:#e67716}
+.service-grid article{border-left-color:var(--gold)}
+.cta-section{background:#3b3e43}
+.cta-section .eyebrow{color:#f4a04b}
+.contact-grid span{color:#8b6b4d}
+@media (min-width:720px){.profile-grid>div{padding:44px 50px}.profile-grid{display:block}.hero{min-height:700px}}
